@@ -1,0 +1,112 @@
+[
+    {
+        "id": "183260098",
+        "name": "Basic hooded sweatshirt in pink",
+        "imageAndVideo": "/product img/product-image@1x.jpg, /product img/product-image.jpg",
+        "basePrice": "31.00",
+        "currentPrice": "15.50",
+        "discount": "-50",
+        "size": "36, 37, 38, 39, 40",
+        "color": "pink, blue, yellow",
+        "rating": "4.13"
+    },
+    {
+        "id": "183260099",
+        "name": "Basic hooded sweatshirt in pink4rreteterterrtetreter",
+        "imageAndVideo": "/product img/product-image@1x.jpg, /product img/product-image.jpg",
+        "basePrice": "5345345.00",
+        "currentPrice": "5345345.00",
+        "discount": "0",
+        "size": "3123146, 37, 38, 39, 45550",
+        "color": "pink, blue, yellow",
+        "rating": "4.77"
+    },
+    {
+        "id": "283260098",
+        "name": "Basic hooded sweatshirt in pink",
+        "imageAndVideo": "/product img/product-image@1x.jpg, /product img/product-image.jpg",
+        "basePrice": "31.00",
+        "currentPrice": "15.50",
+        "discount": "-50",
+        "size": "36, 37, 38, 39, 40",
+        "color": "pink, blue, yellow",
+        "rating": "4.13"
+    },
+    {
+        "id": "183260299",
+        "name": "Basic hooded sweatshirt in pink",
+        "imageAndVideo": "/product img/product-image@1x.jpg, /product img/product-image.jpg",
+        "basePrice": "31.00",
+        "currentPrice": "31.00",
+        "discount": "0",
+        "size": "36, 37, 38, 39, 40",
+        "color": "pink, blue, yellow",
+        "rating": "2.73"
+    },
+    {
+        "id": "183260399",
+        "name": "Basic hooded sweatshirt in pink",
+        "imageAndVideo": "/product img/product-image@1x.jpg, /product img/product-image.jpg",
+        "basePrice": "31.00",
+        "currentPrice": "31.00",
+        "discount": "0",
+        "size": "36, 37, 38, 39, 40",
+        "color": "pink, blue, yellow",
+        "rating": "2.73"
+    },
+    {
+        "id": "183260499",
+        "name": "Basic hooded sweatshirt in pink",
+        "imageAndVideo": "/product img/product-image@1x.jpg, /product img/product-image.jpg",
+        "basePrice": "31.00",
+        "currentPrice": "31.00",
+        "discount": "0",
+        "size": "36, 37, 38, 39, 40",
+        "color": "pink, blue, yellow",
+        "rating": "2.73"
+    },
+    {
+        "id": "183260599",
+        "name": "Basic hooded sweatshirt in pink",
+        "imageAndVideo": "/product img/product-image@1x.jpg, /product img/product-image.jpg",
+        "basePrice": "31.00",
+        "currentPrice": "31.00",
+        "discount": "0",
+        "size": "36, 37, 38, 39, 40",
+        "color": "pink, blue, yellow",
+        "rating": "2.73"
+    },
+    {
+        "id": "183260699",
+        "name": "Basic hooded sweatshirt in pink",
+        "imageAndVideo": "/product img/product-image@1x.jpg, /product img/product-image.jpg",
+        "basePrice": "31.00",
+        "currentPrice": "31.00",
+        "discount": "0",
+        "size": "36, 37, 38, 39, 40",
+        "color": "pink, blue, yellow",
+        "rating": "2.73"
+    },
+    {
+        "id": "183260799",
+        "name": "Basic hooded sweatshirt in pink",
+        "imageAndVideo": "/product img/product-image@1x.jpg, /product img/product-image.jpg",
+        "basePrice": "31.00",
+        "currentPrice": "31.00",
+        "discount": "0",
+        "size": "36, 37, 38, 39, 40",
+        "color": "pink, blue, yellow",
+        "rating": "2.73"
+    },
+    {
+        "id": "183260899",
+        "name": "Basic hooded sweatshirt in pink",
+        "imageAndVideo": "/product img/product-image@1x.jpg, /product img/product-image.jpg",
+        "basePrice": "31.00",
+        "currentPrice": "31.00",
+        "discount": "0",
+        "size": "36, 37, 38, 39, 40",
+        "color": "pink, blue, yellow",
+        "rating": "2.73"
+    }
+]

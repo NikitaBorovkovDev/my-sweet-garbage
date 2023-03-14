@@ -1,0 +1,333 @@
+body {
+    background: #f1f1f1;
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+
+@import '_normalize';
+@import '_cart';
+@import '_card-basket';
+@import '_swiper';
+@import '_buttons';
+@import '_phone-support';
+@import '_divider';
+@import '_menu-secondary';
+@import '_wish-list';
+@import '_products';
+@import '_textStyle';
+@import '_lang-currancy';
+@import '_account';
+@import '_logo';
+@import '_navigation';
+@import '_search-form';
+@import '_categories-card';
+
+
+@import '_header';
+@import '_section-hero-slider';
+@import '_special-offers';
+@import '_section-top-categories';
+@import '_section-new-arrivals';
+
+
+
+.banner {
+
+    &__text {
+        
+    }
+}
+
+
+
+.section-banners {
+
+    &__container {
+    }
+}
+.banner-summer-collections {
+
+    &__text {
+    }
+
+    &__banner-title {
+    }
+
+    &__link {
+    }
+}
+
+.banner-deal-of-the-week {
+
+    &__text {
+    }
+
+    &__banner-title {
+    }
+
+    &__link {
+    }
+
+    &__timer {
+    }
+
+    &__banner-text {
+    }
+}
+.timer {
+}
+.banner-shoes-bags-autumn-winter-2020 {
+
+    &__text {
+    }
+
+    &__banner-title {
+    }
+
+    &__link {
+    }
+}
+.banner-email-subscribe {
+
+    &__text {
+    }
+
+    &__banner-title {
+    }
+}
+.subscribe-form {
+
+    &__button {
+    }
+
+    &__agree {
+    }
+}
+.section-popylar-categories {
+
+    &__containe {
+    }
+
+    &__title {
+    }
+
+    &__list {
+    }
+
+    &__item {
+    }
+
+    &__image-container {
+    }
+
+    &__image {
+    }
+}
+.section-trending-now {
+
+    &__container {
+    }
+
+    &__title {
+    }
+
+    &__products-list {
+    }
+
+    &__button {
+    }
+}
+.section-sale-carousel {
+
+    &__container {
+    }
+
+    &__title {
+    }
+
+    &__button {
+    }
+}
+.section-cta-mobile-app {
+
+    &__contain {
+    }
+
+    &__image-container {
+    }
+
+    &__image {
+    }
+
+    &__content-container {
+    }
+
+    &__text {
+    }
+
+    &__download-app-container {
+    }
+}
+.download-app-container {
+
+    &__google-play-button {
+    }
+
+    &__app-store-button {
+    }
+}
+.google-play-button {
+}
+.app-store-button {
+}
+.section-icon-boxes {
+}
+.icon-boxes-container {
+}
+.delivery-box {
+
+    &__icon {
+    }
+
+    &__title {
+    }
+
+    &__description {
+    }
+}
+.section-instagram {
+
+    &__container {
+    }
+
+    &__content-container {
+    }
+
+    &__text {
+    }
+
+    &__instagram-link {
+    }
+
+    &__button {
+    }
+
+    &__image-container {
+    }
+
+    &__image {
+    }
+}
+.section-blog {
+
+    &__container {
+    }
+
+    &__blogs-container {
+    }
+
+    &__blog-box {
+    }
+}
+.blog-box {
+
+    &__title {
+    }
+
+    &__meta {
+    }
+
+    &__text-content {
+    }
+}
+.meta {
+
+    &__category {
+    }
+
+    &__date {
+    }
+
+    &__comments {
+    }
+}
+.text-content {
+}
+.section-brands {
+
+    &__container {
+    }
+
+    &__img {
+    }
+}
+.section-subscribe {
+
+    &__container {
+    }
+
+    &__title {
+    }
+
+    &__desc {
+    }
+}
+.footer {
+
+    &__container {
+    }
+
+    &__top-container {
+    }
+
+    &__link-block {
+    }
+
+    &__download-app {
+    }
+
+    &__copyright {
+    }
+
+    &__to-top {
+    }
+}
+.link-block {
+
+    &__title {
+    }
+
+    &__link {
+    }
+
+    &__contacts {
+    }
+
+    &__contacts-link {
+    }
+
+    &__socilas {
+    }
+}
+.socilas {
+
+    &__facebook {
+    }
+
+    &__instagram {
+    }
+
+    &__twitter {
+    }
+
+    &__youtube {
+    }
+
+    &__pinterest {
+    }
+}

@@ -1,0 +1,16 @@
+.button {
+    display: inline-block;
+    padding: 13px 40px;
+    font-weight: 700;
+    font-size: 16px;
+    border: 1px solid #17696A;
+    color: #17696A;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    order: 0;
+    flex-grow: 0;
+}
+.fill-button {
+    background: #17696A;
+    color: #FFFFFF;
+}

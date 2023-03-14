@@ -1,0 +1,14 @@
+:root {
+--font-size: 30px;
+}
+глобальная переменная
+.class {
+--font-seze: 20px; 
+}
+локальная переменная
+
+js 
+var root = duc.quary(':root');
+var rootStyle = getComputedStyle(root);
+var mainColor = rootStyle.getPropertyValue('--font-color');
+console.log(mainColor);

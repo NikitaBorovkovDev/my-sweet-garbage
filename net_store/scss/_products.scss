@@ -1,0 +1,154 @@
+
+.product {
+    width: 390px;
+    height: 646px;
+    z-index: 1;
+    &__discount {
+        z-index: 1;
+        position: absolute;
+        background: #FF4242;
+        color: #fff;
+        line-height: 28px;
+        width: 54px;
+        text-align: center;
+        border-radius: 4px;
+        top: 16px;
+        left: 16px;
+    }
+
+    &__container {    
+        width: 390px;
+        position: relative;
+    }
+
+    &__stars-rating {
+        z-index: 1;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        width: 70px;
+        height: 14px;
+        background: url('../img/outline-star.svg') repeat-x 0 0;
+    }
+    &__swiper {
+        height: 440px;
+    }
+    &__stars-rating-fill {
+        height: 14px;
+        background: url('../img/filled-star.svg') repeat-x 0 0;
+    }
+
+    &__image {
+    }
+
+    &__add-wishlist {
+        background: url('../img/wishist.png') no-repeat center/16px;
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        z-index: 1;
+        bottom: 16px;
+        right: 16px;
+    }
+
+    &__name {
+        font-size: 18px;
+        color: #424551;
+        margin-top: 16px;
+    }
+
+    &__price {
+        color: #1E212C;
+        margin-top: 6px;
+        font-weight: 700;
+        font-size: 24px;
+        &_discount {
+            color: #FF4242;
+        }
+    }
+
+    &__base_price {
+        margin-left: 7px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #787A80;
+        text-decoration-line: line-through;
+    }
+
+    &__add-to-cart {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    &__size-container {
+        display: flex;
+    }
+
+    &__size {
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        padding: 0 4px;
+        &:not(:last-child) {
+            margin-right: 8px;
+        }
+        &:hover {
+            border: 1px solid #17696A;
+        }
+    }
+
+    &__color-containers {
+        display: flex;
+    }
+
+    &__color-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        border: 1px solid #D7DADD;
+        width: 24px;
+        height: 24px;
+        &:hover {
+            border: 1px solid #17696A;
+        }
+    }
+
+    &__color {
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+    }
+}
+.product-img-swiper {
+    z-index: 0;
+    width: 390px;
+    border-radius: 4px;
+    &__wrapper {
+    }
+
+    &__slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    &:hover &__button-prev {
+        background: url("../img/product_left-chevron.png") no-repeat center/24px;
+    }
+
+
+    &:hover &__button-next {
+        background: url("../img/product_right-chevron.png") no-repeat center/24px;
+    }
+}

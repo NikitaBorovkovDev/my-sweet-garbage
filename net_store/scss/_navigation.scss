@@ -1,0 +1,17 @@
+.navigation {
+    font-weight: 700;
+    color: #424551;
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        cursor: pointer;
+        &:not(:last-child) {
+            margin-right: 40px;
+        }
+        &:hover {
+            color: #FF4242;
+        }
+    }
+}

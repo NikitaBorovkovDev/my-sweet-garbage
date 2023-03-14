@@ -1,0 +1,5 @@
+git checkout -b  new \\ создать новую ветку и переклчючиться на неё 
+
+git checkout readMe \\ переклчючиться на новую ветку 
+git branch -d test  \\ удалить 
+git add . \\ все файлы

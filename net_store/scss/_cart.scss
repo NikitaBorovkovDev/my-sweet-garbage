@@ -1,0 +1,16 @@
+.cart {
+    cursor: pointer;
+    padding-left: 28px;
+    background: url('../img/cart.png') left 50%/22px no-repeat;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    &__count {
+        background: #03CEA4;
+        border-radius: 4px;
+        padding: 0 7px;
+        height: 23px;
+    }
+}

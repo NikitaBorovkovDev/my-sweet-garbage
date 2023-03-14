@@ -1,0 +1,44 @@
+ 
+для окна браузера
+
+
+const block = document.querySelector('.block');
+resizeWindow(block);
+
+window.addEventListener('resize', (e) => {
+  resizeWindow(block);
+});
+
+function resizeWindow(block) {
+  
+  block.style.width = `${window.innerWidth / 3}px`;
+  block.style.height = `${window.innerHeight / 3}px`;
+  block.innerHTML = `
+  <p>window.innerWidth: ${window.innerWidth}</p>
+  <p>window.innerHeight: ${window.innerHeight}</p>
+  `;
+}
+.block {
+  background: black;
+  color: white;
+}
+<div class="block"></div>
+
+
+
+
+Событие изменения размеров элемента
+const widthDom = document.querySelector('#width');
+const heightDom = document.querySelector('#height');
+const textboxDom = document.querySelector('#textbox');
+
+function outputsize() {
+ widthDom.value = textboxDom.offsetWidth;
+ heightDom.value = textboxDom.offsetHeight;
+}
+outputsize();
+
+new ResizeObserver(outputsize).observe(textboxDom);
+Width: <output id="width">0</output><br>
+Height: <output id="height">0</output><br>
+<textarea id="textbox">Отресайзь меня полностью</textarea><br>

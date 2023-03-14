@@ -1,0 +1,4 @@
+npm init 
+npm install json-server --save-dev // для разработки 
+npm install json-server --save // для работы сайта 
+npm i // установка всех зависимостей

@@ -1,0 +1,39 @@
+
+.special-offers {
+    height: 34px;
+    background: #17696A;
+    width: 100%;
+    color: #FFFFFF;
+    &__swiper {
+        position: relative;
+        text-align: center;
+        height: 100%;
+    }
+
+    &__swiper-swiper-wrapper {
+        
+    }
+
+    &__swiper-swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        overflow: visible;
+    }
+    &__inner-text {
+        font-weight: 700;
+    }
+    &__inner-link {
+        font-weight: 400;
+        text-decoration-line: underline;
+    }
+
+    &__swiper-swiper-button-prev {
+        background: url('../img/Left-chevron.png') no-repeat center/16px;
+    }
+
+    &__swiper-swiper-button-next {
+        background: url('../img/Right-chevron.png') no-repeat center/16px;
+    }
+}

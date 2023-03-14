@@ -1,0 +1,20 @@
+body {
+  background: rgb(73, 71, 71);
+}
+
+.text-wallper {
+  margin: 50px auto 0;
+  width: 900px;
+  height: 500px;
+  background: linear-gradient(128deg, #FBCEB1 19%, transparent 19%, transparent 20%, #FDD9B5 20%, #FDD9B5 39%, transparent 39%, transparent 40%, #B5B8B1 40%, #B5B8B1 59%, transparent 59%, transparent 60%, #7FFFD4 60%, #7FFFD4 79%, transparent 79%, transparent 80%, #78DBE2 80%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.text-wallper__text {
+  font-size: 90px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

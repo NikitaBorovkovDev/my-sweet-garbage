@@ -1,0 +1,42 @@
+.lang-currancy {
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+    &__item {
+        background: url('../img/flag-usa.jpg') 0 50%/20px 12px no-repeat ;
+        padding-left: 28px;
+    }
+    &__lang-change {
+        position: absolute;
+        top: 100%;
+        margin-top: 5px;
+        left: -1px;
+        padding: 2px 5px 4px;
+        opacity: 0;
+        transform: scaleY(0);
+        transition: opacity .2s ease, transform .2s ease;
+        transform-origin: top;
+        width: 100px;
+        background: #fff;
+        color: #17696A;
+        font-weight: 700;
+        border: 1px solid #17696A;
+        border-radius: 4px;
+    }
+    &__lang-change-open {
+        transform: scaleY(1);
+        opacity: 1;
+        transition: opacity .2s ease, transform .2s ease;
+    }
+    &__button {
+        padding: 10px;
+        transition: transform .2s;
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        background: url('../img/Down-chevron.svg') no-repeat center center;
+    }
+    &__button-open-menu {
+        transform: scaleY(-1);
+    }
+}

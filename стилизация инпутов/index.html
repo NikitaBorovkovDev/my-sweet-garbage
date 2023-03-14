@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://jsonplaceholder.typicode.com/posts" autocomplete method="POST">
+        <div class="fake-select">
+            <div class="select_text">one</div>
+            <div class="option">
+                <button class="option-button" type="button" data-option="1">one</button>
+                <button class="option-button" type="button" data-option="2">two</button>
+                <button class="option-button" type="button" data-option="3">three</button>
+            </div>
+        </div>
+        <select required name="select" id="select">
+            <option value="1" id="option">uno</option>
+        </select>
+        <input type="button" id="wtf">
+        <input type="submit">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

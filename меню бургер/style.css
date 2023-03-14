@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus.a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+input,button,textarea{font-family: inherit;}
+input: -ms-clear{display: none;}
+button{cursor: pointer;}
+button,-moz-focus-inner{padding: 0;border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.burger-menu{
+	border: 1px solid #000;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.wallper {
+	width: 320px;
+	background: #fff;
+	position: relative;
+	color: #fff;
+	text-align: center;
+	height: 40px;
+}
+
+#check-menu{
+	display: none;
+}
+
+#check-menu:checked ~ .main-menu {
+	max-height: 500px;
+	font-size: 16px;
+}
+label{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	cursor: pointer;
+	z-index: 2;
+	height: 40px;
+}
+.burger-line {
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	width: 35px;
+	height: 2px;
+	background: black;
+	transition: 0.5s all;
+}
+.burger-line_second, .burger-line_third{
+	top: 18px;
+}
+.burger-line_fourth{
+	top: 28px;
+}
+#check-menu:checked ~ .burger-line_first{
+	display: none;
+}
+#check-menu:checked ~ .burger-line_second{
+	transform: rotate(45deg);
+}
+#check-menu:checked ~ .burger-line_third{
+	transform: rotate(-45deg);
+}
+#check-menu:checked ~ .burger-line_fourth{
+	display: none;
+}
+.main-menu {
+	display: block;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	transform: translateY(100%);
+	max-height: 0;
+	font-size: 0;
+	overflow: hidden;
+	transition: 0.5s all;
+}
+a{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	border-top: 1px solid rgba(255, 255, 255, 0.3);
+	background-color: rgb(87, 55, 129);
+}

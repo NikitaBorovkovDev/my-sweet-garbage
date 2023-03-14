@@ -1,0 +1,182 @@
+.cart-basket {
+    border: 1px solid #E5E8ED;
+    box-shadow: 0px 60px 80px -20px rgba(30, 33, 44, 0.16), 0px 26px 24px -10px rgba(30, 33, 44, 0.1), 0px 12px 10px -6px rgba(30, 33, 44, 0.08), 0px 4px 4px -4px rgba(30, 33, 44, 0.05);
+    border-radius: 4px 0px 0px 4px;
+    top: 0;
+    right: 0;
+    position: fixed;
+    z-index: 10000;
+    width: 352px;
+    height: 100%;
+    background-color: #fff;
+    transform: translateX(110%);
+    transition: transform .5s ease-in-out;
+    &__close {
+        position: relative;
+        margin-left: auto;
+        width: 24px;
+        height: 24px;
+    }
+    &__carts-info {
+        padding: 32px 24px 24px 24px;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-size: 20px;
+        color: #1E212C;
+        border-bottom: 1px solid #E5E8ED;
+    }
+    
+    &__products {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__product {
+        border-bottom: 1px solid #E5E8ED;
+        display: flex;
+        padding: 16px 24px;
+    }
+
+    &__image {
+        flex-shrink: 0;
+        object-fit: cover;
+        object-position: 50%;
+        width: 80px;
+        height: 80px;
+        margin-right: 16px;
+    }
+
+    &__item {
+        
+    }
+
+    &__product-name {
+        font-weight: 900;
+        font-size: 14px;
+        color: #1E212C;
+    }
+
+    &__product-color-container {
+        margin-top: 5px;
+        font-weight: 400;
+        font-size: 12px;
+        color: #787A80;
+    }
+
+    &__product-color {
+        color: #424551;
+    }
+
+    &__product-size-container {
+        margin-top: 1px;
+        font-weight: 400;
+        font-size: 12px;
+        color: #787A80;
+    }
+
+    &__product-size {
+        color: #424551;
+    }
+
+    &__product-count {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__counter-box {
+        display: inline-flex;
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+        padding: 9px 12px;
+        align-items: center;
+    }
+
+    &__counter {
+        input[type="number"]::-webkit-outer-spin-button,
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none; // Yeah, yeah everybody write about it
+        }
+
+        input[type='number'],
+        input[type="number"]:hover,
+        input[type="number"]:focus {
+            appearance: none;
+            -moz-appearance: textfield;
+        }
+        font-size: 14px;
+        line-height: 18px;
+        width: 32px;
+    }
+
+    &__stepper-arrows {
+        display: flex;
+        flex-direction: column;
+        width: 16px;
+        height: 18px;
+    }
+
+    &__stepper-arrows-down, &__stepper-arrows-up {
+        background: url('/img/icon-add-up.svg') no-repeat 50%/10px 6px;
+        width: 16px;
+        height: 9px;
+    }
+
+    &__stepper-arrows-down {
+        transform: rotate(180deg);
+    }
+
+    &__current-price {
+        margin-left: 16px;
+        font-size: 18px;
+        line-height: 160%;
+        font-weight: 700;
+    }
+
+    &__current-price_discount {
+        color: #FF4242;
+    }
+
+    &__delet-item-button {
+        flex-shrink: 0;
+        width: 16px;
+        height: 16px;
+        background: url('/img/delete-icon.png') no-repeat 50%/16px;
+    }
+
+    &__no-discount-price {
+        margin-left: 4px;
+        height: 18px;
+        line-height: 18px;
+        text-decoration-line: line-through;
+        font-size: 14px;
+        color: #787A80;
+    }
+}
+
+.cross {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    width: 23px;
+    height: 23px;
+    &::after, &::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        height: 2px;
+        background: #787A80;
+    }
+    &::after {
+        transform: translateY(-50%) rotate(45deg);
+    }
+    &::before {
+        transform: translateY(-50%) rotate(-45deg);
+    }
+}
+.cart-basket-active {
+    transform: translateX(0);
+}

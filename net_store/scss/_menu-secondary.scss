@@ -1,0 +1,9 @@
+.menu-secondary {
+
+    &__link {
+        
+        &:not(:last-child) {
+            margin-right: 32px;
+        }
+    }
+}

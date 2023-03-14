@@ -1,0 +1,6 @@
+.wallper {
+    background: rgb(144, 143, 241);
+    width: 100%;
+    height: 100%;
+    margin: calc(100% - 97%);
+}

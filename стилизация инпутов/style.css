@@ -1,0 +1,26 @@
+.fake-select {
+}
+
+.select_text {
+    position: relative;
+}
+.option {
+    position: absolute;
+    max-height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 100%;
+    width: 200px;
+    transition: max-height .5s ease-in-out;
+}
+.option-button {
+    display: block;
+    width: 100%;
+}
+.active {
+}
+#select {
+    display: none;
+}

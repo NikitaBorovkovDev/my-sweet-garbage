@@ -1,0 +1,14 @@
+.divider {
+    position: relative;
+    padding: 0 20px;
+}
+.divider::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 22px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgb(218,219,221);
+    background: linear-gradient(0deg, rgba(218,219,221,0) 0%, rgba(218,219,221,0.5) 25%, rgba(218,219,221,1) 50%, rgba(218,219,221,0.5) 75%, rgba(218,219,221,0) 100%);
+}

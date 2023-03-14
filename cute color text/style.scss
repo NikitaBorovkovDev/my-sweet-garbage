@@ -1,0 +1,35 @@
+$color1: #FBCEB1;
+$color2: #FDD9B5;
+$color3: #B5B8B1;
+$color4: #7FFFD4;
+$color5: #78DBE2;
+
+body {
+    background: rgb(73, 71, 71);
+}
+.text-wallper {
+    margin: 50px auto 0;
+    width: 900px;
+    height: 500px;
+    background: linear-gradient(128deg, 
+    $color1 19%,
+    transparent 19%, transparent 20%, 
+    $color2 20%, $color2 39%,
+    transparent 39%, transparent 40%, 
+    $color3 40%, $color3 59%, 
+    transparent 59%, transparent 60%, 
+    $color4 60%, $color4 79%, 
+    transparent 79%, transparent 80%,
+    $color5 80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    &__text {
+        font-size: 90px;
+        text-align: center;
+
+    }
+}

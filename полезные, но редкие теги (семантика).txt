@@ -1,0 +1,15 @@
+address
+
+спойлер: 
+<details>
+	<summary> *название* </summary>
+	<p>*сам спойлер*</p>
+</details>
+
+mark - выделение важного текста 
+
+metr - процесс бар
+abbr - расшифровка для абривиатур 
+
+для head:
+<base target="_blank" href="/base">

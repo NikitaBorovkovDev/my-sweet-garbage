@@ -1,0 +1,5 @@
+document.querySelector('.burger').addEventListener('click', function(event){
+    event.target.classList.toggle('blue')
+
+
+позволяет выбрать то для чего сработал event

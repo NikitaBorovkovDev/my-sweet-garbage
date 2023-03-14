@@ -1,0 +1,15 @@
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+
+.swiper-button-prev {
+    background: #000;
+}
+.swiper-button-next {
+    background: #000;
+}
+
+.swiper-button-next::after {
+    
+}

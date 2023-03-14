@@ -1,0 +1,16 @@
+
+.section-top-categories {
+    z-index: 2;
+    &__container {
+        margin-top: -60px;
+        display: flex;
+        
+    }
+
+    &__card {
+        z-index: 2; 
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+}

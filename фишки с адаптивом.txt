@@ -1,0 +1,3 @@
+flex c margin auto;
+document.body.contentEditable = true
+flex grou shiring base

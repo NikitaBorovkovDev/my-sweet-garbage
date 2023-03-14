@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+    <form action="#" autocomplete method="get" class="form">
+        <label for="name">label</label>
+        <input class="_req _name" minlength="2" placeholder="name"  type="text" name="name" id="name">
+        <input class="_req _email" type="text" name="email">
+        <input class="_req _tel" type="tel" name="tel">
+        <input class="_req _check" type="checkbox" name="check"><label for="check">lorem</label>
+        <textarea class="_req _text" name="" id="" cols="30" rows="10"></textarea>
+        <div class="file">
+            <div class="file__item">
+                <input type="file" class="file" id="file" accept=".jpg, .png" name="file">
+                <div class="file__button">select</div>
+            </div>
+            <div id="formPreview" class="file__preview"></div>
+        </div>
+        <input type="submit">
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>

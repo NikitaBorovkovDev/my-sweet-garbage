@@ -1,0 +1,2 @@
+останавливает код после throw как return
+ throw new Error('...')

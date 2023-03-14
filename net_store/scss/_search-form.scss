@@ -1,0 +1,25 @@
+
+.search-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+    height: 44px;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    padding: 0 13px 0 16px;
+    font-size: 14px;
+    &__input-text-form {
+        margin-top: -1px;
+        width: 100%;
+    }
+    &__button {
+        width: 25px;
+        height: 25px;
+        background: url('../img/search.png') 50% 50%/16px 16px no-repeat;
+        text-align: right;
+    }
+}
+.input-text-form {
+    
+}

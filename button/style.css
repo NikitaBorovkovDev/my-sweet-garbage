@@ -1,0 +1,30 @@
+
+.button {
+    margin: 50px 50px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    background-color: lightgreen;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 3px 0 rgb(2, 65, 2);
+    animation-fill-mode: forwards;
+    letter-spacing: 2px;
+    transition: all ease 1s;
+    box-shadow: 0 3px 0 rgb(2, 65, 2);
+        transform: translateY(0);
+}
+
+.button:active {
+    transform: translateY(3px);
+    box-shadow: 0 0px 0 rgb(2, 65, 2);
+}
+.button_active {
+    transform: translateY(3px);
+    box-shadow: 0 0px 0 rgb(2, 65, 2);
+}

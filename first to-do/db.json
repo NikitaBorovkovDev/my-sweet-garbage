@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "name": "John",
+      "salary": 800,
+      "increase": true,
+      "like": true,
+      "id": 1
+    },
+    {
+      "name": "Alex",
+      "salary": 5235,
+      "increase": true,
+      "like": false,
+      "id": 2
+    },
+    {
+      "name": "Carl",
+      "salary": 51253,
+      "increase": false,
+      "like": false,
+      "id": 3
+    },
+    {
+      "name": "alex",
+      "salary": "555567",
+      "increase": false,
+      "like": false,
+      "id": 5
+    }
+  ]
+}

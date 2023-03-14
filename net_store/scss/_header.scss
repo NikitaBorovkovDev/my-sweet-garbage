@@ -1,0 +1,68 @@
+.header-top {
+
+    &__container {
+    }
+
+    &__topbar {
+        font-size: 14px;
+        line-height: 21px;
+        color: #ABA6A5;
+        background: #1E212C;
+    }
+    &__topbar-container {
+        display: flex;
+        padding: 11px 0 12px;
+        align-items: center;
+        & > * {
+            flex-grow: 10;
+            flex-basis: 33.33%;
+        }
+    }
+    &__phone-support {
+    }
+
+    &__menu-secondary {
+        flex: 0 0 auto;
+    }
+    &__lang-and-account-container {
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__lang-currancy {
+        margin-right: 30px;
+    }
+
+    &__account {
+        margin-left: 26px;
+    }
+
+    &__nav-menu {
+        display: flex;
+        height: 84px;
+        align-items: center;
+    }
+
+    &__logo {
+    }
+
+    &__navigation {
+        margin-left: 60px;
+    }
+
+    &__search-form {
+        margin-left: auto;
+    }
+
+    &__toolbar {
+        display: flex;
+        margin-left: 40px;
+    }
+
+    &__wish-list {
+        
+    }
+
+    &__cart {
+        
+    }
+}

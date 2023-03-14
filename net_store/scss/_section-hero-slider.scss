@@ -1,0 +1,63 @@
+.section-hero-slider {
+    background: #FBE4D4;
+    &__container {
+        background: url('../img/herobg_1x.jpg') no-repeat center;
+        height: 800px;
+    }
+
+    &__slide {
+
+    }
+    &__swiper {
+        width: 100%;
+    }
+    &__description {
+        padding-top: 140px;
+        font-size: 18px;
+        font-weight: 900;
+    }
+
+    &__title {
+        margin-top: 12px;
+        margin-left: -3px;
+        font-size: 72px;
+    }
+
+    &__shop-sale-button {
+        margin-top: 60px;
+        margin-right: 24px;
+    }
+
+    &__shop-menswear-button {
+    }
+    &__swiper-pagination {
+        position: absolute;
+        height: 54px;
+        
+        transform: translateX(-50%);
+        left: 50% !important;
+        bottom: 180px !important;
+        z-index: 100;
+        background: transparent;
+    }
+
+    & .swiper-pagination-bullet {
+        font-family: 'Ubuntu';
+        font-weight: 700;
+        color: #424551;
+        opacity: 0.5;
+        background: transparent;
+        width: 178px;
+        height: 54px;
+        text-align: left;
+        font-size: 28px;
+        border-radius: 0;
+        border-bottom: 2px solid #424551;
+    }
+    & .swiper-pagination-bullet-active {
+        opacity: 1;
+    }
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    
+}

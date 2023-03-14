@@ -1,0 +1,12 @@
+.block {
+    margin: 10px;
+    max-width: 100%;
+    border: 1px solid #000;
+    /* background-image: url(/Vector\ \(2\).svg), url(/Vector\ \(3\).svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto; */
+}
+#circle2:hover {
+    fill: brown;
+}

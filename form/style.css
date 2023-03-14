@@ -1,0 +1,11 @@
+.form{
+    background-color: rgb(143, 140, 140);
+}
+input::placeholder {
+    color: #000;
+}
+
+.file__preview {
+    width: 200px;
+    height: 200px;
+}

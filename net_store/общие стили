@@ -1,0 +1,28 @@
+<h2 class="title"></h2>
+
+<div class=" banner">
+    <p class=" banner__text">Summer Collections</p>
+    <h2 class=" title">Sale Up to 70%</h2>
+    <a class=" button">Explore new prices</a>
+    <div class=" timer">
+        <span class=" banner-text">Limited time offer</span>
+
+    </div>
+</div>
+
+<span class="divider"></span>
+
+<div class="product">
+    <div class="product__container">
+        <div class="product__stars-rating"></div>
+        <picture>
+            <source srcset=" 1x,
+            2x,
+            4x">
+            <img class="product__image" src="" alt="">
+        </picture>
+        <button class="product__add-wishlist"></button>
+    </div>
+    <span class="product__name"></span><br>
+    <span class="product__price"></span>
+</div>

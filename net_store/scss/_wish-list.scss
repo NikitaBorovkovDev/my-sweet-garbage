@@ -1,0 +1,11 @@
+.wish-list {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 36px;
+    padding-left: 28px;
+    background: url('../img/wishist.png') left 50%/20px no-repeat;
+    font-weight: 400;
+    &__count {
+
+    }
+}

@@ -1,0 +1,196 @@
+@media (max-width:767px){
+    .header {
+        margin-top: 0px;
+    }
+    body.lock {
+        overflow: hidden;
+    }
+    .header_underline {
+        display: none;
+    }
+    .header_burger {
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 69px;
+        width: 33px;
+        height: 20px;
+        
+    }
+    .header_burger.active {
+        display: none;
+    }
+    .header_burger_open {
+        padding-right: 0px;
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 66px;
+        width: 26px;
+        height: 26px;
+        z-index: 3;
+    }
+    .header_burger_open.active {
+        padding-right: 0px;
+        display: block;
+        position: absolute;
+        right: 28px;
+        top: 66px;
+        width: 36px;
+        height: 36px;
+        z-index: 3;
+    }
+    .header_burger:before,
+    .header_burger:after {
+        content: "";
+        background: rgb(0, 0, 0);
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        left: 0;
+        
+    }
+    .header_burger span{
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        left: 0;
+        width: 100%;
+        height: 4px;
+        top: 8px;
+        
+    }
+    .header_burger:before{
+        top: 0;
+    }
+    .header_burger:after {
+        bottom: 0;
+    }
+    .header_burger_open::before {
+        transform: rotate(45deg);
+        background: #828282;
+        top: 16px;
+    }
+    .header_burger_open::after {
+        transform: rotate(-45deg);
+        background: #828282;
+        bottom: 16px;
+    }
+    .header_burger_open span {
+        background: #828282;
+        transform: scale(0);
+    }
+
+    .header.lock_burger {
+        position: fixed;
+    }
+
+    .header_menu {
+        position: fixed;
+        top: -120%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        transition: all 0.3s ease 0s;
+        background: rgb(255, 255, 255);
+        padding: 66px 28px 20px 26px;
+    }
+    .header_menu.active {
+        top: 0;
+    }
+    .header_list {
+        display: block;
+    }
+    .header_list li {
+        margin-bottom: 20px;
+    }
+    .header_link {
+    font-size: 34px;
+    line-height: 42px;
+    }
+}
+@media (max-width:767px){
+    .container {
+        padding: 0 30px;
+    }
+	.hero {
+		position: relative;
+		margin-top: 60px;
+		display: block;
+	}
+}
+@media (max-width:767px){
+	.header-h1 {
+		display: block;
+		font-size: 47.3392px;
+		line-height: 59px;
+		padding-top: 0;
+	}
+}
+@media (max-width:767px){
+	.header_text {
+        margin-top: 23px;
+		display: block;
+	}
+    .header_photo {
+        display: block;
+        width: 100%;
+        margin-top: 37px;
+    }
+}
+@media (max-width:767px){
+	.hero_switch-lang1 {
+        display: none;
+    }
+    .header_text {
+        width: 100%;
+        text-align: left;
+    }
+    .hero_switch-lang {
+        margin-top: 150px;
+        margin-bottom: 57px;
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+        writing-mode: vertical-rl;
+        transform: rotate(-180deg);
+    }
+    .hero_switch-lang a{
+        font-family: 'Gilroy-Bold';
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .aboutme-h2 {
+        margin-bottom: 30px;
+    }
+    .aboutme_text:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .skills_list {
+        display: flex;
+        align-items: center;
+        margin-top: 82.47px;
+        flex-direction: column;
+    }
+    .skills_list_item {
+        height: 206.29px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        position: relative;
+    }
+    .skills_list_item_desc {
+        font-family: 'Gilroy-Bold';
+        width: 70px;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        margin-top: 28px;
+        color: #828282;
+    }
+    .skills_list_item:not(:last-child) {
+        margin-bottom: 82px;
+    }
+}
